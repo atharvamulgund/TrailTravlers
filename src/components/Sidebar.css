@@ -89,22 +89,3 @@ input {
   justify-content: center;
   margin-top: 3rem;
 }
-
-.sideRoute {
-  background: #f76d28;
-  white-space: nowrap;
-  padding: 32px 64px;
-  color: #fff;
-  font-size: 16px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  transition: 0.2s ease-in-out;
-  text-decoration: none;
-  text-align: center;
-}
-
-.sideRoute:hover {
-  transition: transform 0.2s ease-in-out;
-  transform: scale(1.1);
-}

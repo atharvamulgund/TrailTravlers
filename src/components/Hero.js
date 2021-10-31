@@ -47,17 +47,17 @@ const Hero = () => {
 						>
 						<input type="hidden" name="form-name" value="contact" />
 						<p>
-							<label>Your Name: <input type="text" name="name" /></label>
+							<label>Your Name: <input type="text" name="name" required/></label>
 						</p>
 						<p>
-							<label>Your Email: <input type="email" name="email" /></label>
+							<label>Your Email: <input type="email" name="email" required/></label>
 						</p>
 
 						<p>
-							<label>Desired Destination: <input type="text" name="dest" /></label>
+							<label>Desired Destination: <input type="text" name="dest" required/></label>
 						</p>
 						<p>
-							<button class="sideRoute" type="submit">Send</button>
+							<Button type="submit">Send</Button>
 						</p>
 					</form>
 				</Modal.Body>

@@ -2,8 +2,8 @@ import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Hero from './components/Hero';
 import Favorite from './components/Favorite';
-import Cakes from './components/Cakes';
-import Chefs from './components/Chefs';
+import Cakes from './components/Tours';
+import Chefs from './components/Founders';
 import Footer from './components/Footer';
 
 function App() {
